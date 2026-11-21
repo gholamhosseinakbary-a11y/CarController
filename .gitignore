@@ -1,0 +1,21 @@
+# CarController VPS repo — ignore rules
+# (مخزن را Private نگه دارید — شامل کلید امضای اپ و نشانی سرور شماست)
+
+# Node / VPS server
+vps-server/node_modules/
+vps-server/config.json
+vps-server/data/
+*.log
+
+# Android build outputs (سورس نگه داشته می‌شود)
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
