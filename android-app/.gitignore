@@ -1,0 +1,13 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Keystore (اختیاری — اگر می‌خواهید امضای release فقط روی Actions باشد)
+# keystore.jks
